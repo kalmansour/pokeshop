@@ -48,4 +48,12 @@ export const ThemeButton = styled.button`
   background-color: ${({ theme }) => theme.mainColor};
   color: ${({ theme }) => theme.backgroundColor};
 `;
+
+export const SearchBarStyled = styled.input`
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 40%;
+`;
+
 export default styles;

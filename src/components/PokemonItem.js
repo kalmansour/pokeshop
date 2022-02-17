@@ -4,7 +4,6 @@ import React from "react";
 import styles from "../styles";
 
 const PokemonItem = ({ pokemon }) => {
-  console.log("pokemon prop", pokemon);
   return (
     <div style={styles.pokemon}>
       <img style={styles.pokeImage} alt={pokemon.name} src={pokemon.image} />
